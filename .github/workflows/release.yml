@@ -2,10 +2,10 @@ name: Hues Livery Package Release
 on:
   push:
     tags:
-      - 'hues-a339x-dal-v*.*.*'
-      - '!hues-a339x-dal-v*.*.*-alpha*'
-      - '!hues-a339x-dal-v*.*.*-beta*'
-      - '!hues-a339x-dal-v*.*.*-rc*'
+      - 'v*.*.*'
+      - '!v*.*.*-alpha*'
+      - '!v*.*.*-beta*'
+      - '!v*.*.*-rc*'
 
 jobs:
   build_hues_4k:
