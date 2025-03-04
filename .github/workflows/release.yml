@@ -10,7 +10,7 @@ on:
 jobs:
   build_hues_4k:
     # Prevent running this on forks
-    if: github.repository_owner == 'headwindsim'
+    if: github.repository_owner == 'Hues-by-Horizon-Simulations'
     name: 'Build HUES 4K Livery Package'
     runs-on: ubuntu-latest
     env:
@@ -66,7 +66,7 @@ jobs:
           ./scripts/cdn.sh $CDN_BUCKET_DESTINATION ./hues-a339x-dal/out/build-modules
   build_hues_8k:
     # Prevent running this on forks
-    if: github.repository_owner == 'headwindsim'
+    if: github.repository_owner == 'Hues-by-Horizon-Simulations'
     name: 'Build HUES Livery Package'
     runs-on: ubuntu-latest
     env:
